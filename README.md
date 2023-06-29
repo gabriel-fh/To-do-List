@@ -27,7 +27,7 @@ Existem duas maneiras de usar este projeto:
    - Interaja com os botões e campos de entrada para adicionar, editar ou remover tarefas.
 
 2. **Acessando via GitHub Pages:**
-   - Você também pode acessar a versão online deste projeto através do [GitHub Pages](URL_DO_GITHUB_PAGES).
+   - Você também pode acessar a versão online deste projeto através do [GitHub Pages](https://gabriel-fh.github.io/To-do-List/).
    - Acesse a URL do GitHub Pages no seu navegador.
    - Interaja com os botões e campos de entrada para adicionar, editar ou remover tarefas.
 
