@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/1062d8ad19.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="h1-header-content">
+            <h1 class="header-title">Lista de Tarefas</h1>
+        </div>
+        <button class="hide btn-edit" title="edit">
+            <i class="fa-solid fa-pen-to-square"></i>
+        </button>
+    </header>
+    <main class='main'>
+        <div class="container">
+            <section class="container-input">
+                <div class="container-input-title input-title-task">
+                    <input type="text" placeholder="Insira um título para a sua lista" data-input="input-title"/>
+                    <button class="btn-check-title fa-solid fa-check"></button>
+                </div>
+                <div class="container-input-task input-title-task">
+                    <input type="text" placeholder="O que você vai fazer?" data-task="input-task"/>
+                    <button class="add fa-solid fa-plus" data-task="add-new-task"></button>
+                </div>
+            </section>
+            <section class="container-task-list"></section>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>To Do List &copy; 2023 - Todos os direitos reservados | Desenvolvido por: <a href="https://github.com/gabriel-fh" target="_blank">Gabriel F. Hermenegildo</a></p>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
